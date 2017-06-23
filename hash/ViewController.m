@@ -33,8 +33,6 @@
 -(void)testHash{
     
     NSMutableSet *test=[NSMutableSet set];
-    //NSMutableArray *test=[NSMutableArray array];
-    //NSMutableDictionary *test=[NSMutableDictionary dictionary];
     NSLog(@"开始添加");
     for (long int i=0; i<100000000; i++) {
         if (i>99999000) {
